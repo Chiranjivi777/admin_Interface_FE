@@ -1,0 +1,88 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+body {
+ /* background: #cecece; #dcdadafb; */
+   background: #b7fffdfb; 
+   background-image: url("assets/images/bg.png") ;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  background-color: rgb(3, 96, 136);
+}
+
+.navbar-brand{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link{
+  padding: 12px;
+  border-radius: 5px;
+}
+
+
+.card {
+  /* background: rgb(45, 176, 232); */
+  /* background:rgba(189, 245, 225, 0.926);  */
+ background: rgba(106, 242, 255, 0.926);
+  /* background: #d1cece; */
+  /* background: #6aa0c2;*/ 
+  /* background: rgb(14, 155, 215); */
+  border: none;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.545);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.social-links li a {
+  -webkit-border-radius: 50%;
+  background-color: rgba(89, 206, 181, .85);
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+  font-size: 12px;
+}
+
+a {
+  color: #707070;
+}
+i {
+color: white;
+}
+
+a {
+color: white;
+}
+
+#nob{
+  border: none;
+}
